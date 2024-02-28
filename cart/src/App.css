@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(195, 195, 199);
+}
+
+input {
+  width: 50px
+}
+
+.Card {
+  text-align: center;
+  background-color: rgb(38, 90, 187);
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  float: left;
+}
+
+.Cart{
+  background-color: white;
+  width: 40%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 15px;
+  float: right;
+}
+
+.Cart th{
+  width: 10%
+}
