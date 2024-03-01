@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(209, 209, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  margin-top: 15px;
+  display: grid;
+  width: 500px;
+  height: 350px;
+  grid-template-rows: 1fr 28px;
+  grid-template-columns: 90px 1fr 20px 20px 20px 1fr 90px;
+}
+
+#previous {
+  grid-area: 2 / 1 / 2 / 1;
+  justify-self: center;
+  align-self: center;
+}
+
+#next {
+  grid-area: 2 / 7 / 2 / 7;
+}
+
+#Selector0 {
+  grid-area: 2 / 3 / 2 / 3;
+}
+
+#Selector1 {
+  grid-area: 2 / 4 / 2 / 4;
+}
+
+#Selector2 {
+  grid-area: 2 / 5 / 2 / 5;
+}
+
+img {
+  width: 500px;
+  height: 350px;
+}
+
+.Card{
+  grid-area: 1 / 1 / 3 / 8;
+  align-self: center;
+}
+
+.Selector {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  background-color: rgb(102, 102, 102);
+  justify-self: center;
+  align-self: center;
+}
+
+.Button {
+  background-color: rgb(102, 102, 102);
+  color: white;
+  border-radius: 8px;
+  width: 80px;
+  justify-self: center;
+  align-self: center;
+}
