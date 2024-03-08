@@ -1,0 +1,44 @@
+body {
+  background-color: lightgray;
+}
+
+.card {
+  display: flex;
+  height: 285px;
+  width: 600px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  padding: 5px;
+}
+
+.info {
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#btnAdd {
+  width: 150px;
+  margin-bottom: 20px;
+}
