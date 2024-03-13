@@ -1,0 +1,15 @@
+body {
+  background-color: lightgray;
+}
+
+.App {
+  padding-left: 20px;
+}
+
+.textField, .select, .button {
+  margin: 10px;
+}
+
+.select{
+  width: 500px;
+}
